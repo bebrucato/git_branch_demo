@@ -7,5 +7,8 @@ console.log(choice2)
 
 var choices = ["R","P","S",];
 
-var randomIndex = Math.floor(Math.random);
+function computer_choice() {
+    return choices[Math.floor(Math.random()*choices.length)];
+}
+console.log(computer_choice());
 
