@@ -17,6 +17,7 @@ for(var i = 0; i < 10; i++) {
         }
      else if (choice2 ==="r" && choice === "s" ) {
           console.log("You Win");
+          alert("You Win");
         }
     else if (choice2 === "r" && choice === "p") {
             console.log("You Lose");
