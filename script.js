@@ -1,4 +1,4 @@
-alert();"Ready to play?"
+alert("Ready to play?");
 
 var choice = confirm("Rock, Paper or Scissors?");
 var choice2 = prompt("Choose R, P, S");
